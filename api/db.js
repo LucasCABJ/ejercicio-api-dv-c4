@@ -4,8 +4,8 @@ const mysql = require('mysql2/promise');
 const pool = mysql.createPool({
   host: 'localhost',
   port: 3306,
-  user: 'usuario',
-  password: '',
+  user: 'root',
+  password: 'pass',
   database: 'api_musica',
   waitForConnections: true,
   connectionLimit: 10,
